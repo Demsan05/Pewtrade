@@ -1,0 +1,42 @@
+SKOTTBÖRSEN - ATT GÖRA & HUR MAN GÖR
+
+1. 🟢 STARTA PROJEKTET
+-----------------------
+- Backend:
+  - Gå till backend-mappen
+  - Kör: npm install
+  - Skapa en .env-fil med MONGO_URI och JWT_SECRET
+  - Kör: npm run dev
+
+- Frontend:
+  - Gå till frontend-mappen
+  - Kör: npm install
+  - Kör: npm run dev
+
+2. 🧪 TESTA FUNKTIONER
+-----------------------
+- Registrera ny användare
+- Logga in och skapa en annons
+- Välj 'Premium' för att kunna lägga upp extrabilder + topplacering
+- Redigera, ta bort och visa spotlight (endast toppannonser)
+
+3. 📌 ADMIN-KONTROLL / BACKEND
+-----------------------
+- Alla annonser får automatiskt ett 'expiresAt' datum (30 dagar)
+- Utgångna annonser visas ej men finns kvar i databasen
+
+4. 🔜 FÖRSLAG PÅ FRAMTIDA UTVECKLING
+-----------------------
+- Adminvy för borttagning eller arkivering
+- Betalfunktion för premium
+- Kategorier och sökfilter
+- Bildgalleri med förstoring
+- Avisering när annons nästan går ut
+
+5. ❓ HJÄLP
+-----------------------
+- Du kan alltid se filerna i frontend/src/pages/ eller backend/routes/
+- Titta i README.md för snabbstart
+- Fråga en utvecklare om något är oklart – detta är nu ett fullt fungerande projekt!
+
+/Lycka till!
